@@ -1,2 +1,2 @@
-# docker_webserver_mocha
-PHP7 Apache
+# docker_webserver_kalbestore
+Dockerfile Magento Kalbestore PHP5 Apache
