@@ -11,7 +11,6 @@ RUN pecl install oauth
 COPY src/redis.ini /etc/php/7.0/mods-available/redis.ini
 COPY src/oauth.ini /etc/php/7.0/mods-available/oauth.ini
 COPY src/yaml.ini /etc/php/7.0/mods-available/yaml.ini
-COPY src/yaml.ini /etc/php/7.0/mods-available/yaml.ini
 COPY src/envvars /etc/apache2/envvars
 COPY src/mocha.conf /etc/apache2/sites-available/mocha.conf
 RUN phpenmod redis
